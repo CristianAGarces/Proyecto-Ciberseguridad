@@ -1,0 +1,141 @@
+.container {
+    margin: auto;
+    background-color: white;
+    width: 797px;
+    padding: 30px;
+    border-radius: 40px;
+    text-align: justify;
+    font-family: sans-serif;
+    box-shadow: 1px 1px 8px 8px rgb(196, 190, 190);
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.slider {
+    position: relative;
+    width: 800px;
+    height: 300px;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+}
+
+ul.slider li img {
+    width: 92%;
+    height: 300px;
+    object-fit: cover;
+}
+
+ul.slider li:first-child {
+    opacity: 1;
+}
+
+ul.slider li:target {
+    opacity: 1;
+}
+
+.menu2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.menu2 li {
+    display: inline-block;
+}
+
+.menu2 li a {
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: rgb(17, 40, 155);
+    padding: 3px;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.menu2 li a:hover {
+    background-color: rgb(17, 67, 168);
+}
+
+.titulo1 {
+    font-size: 30px;
+    line-height: normal;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo2 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(17, 40, 155);
+    font-family: Blogger Sans;
+}
+
+.titulo3 {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(17, 40, 155);
+}
+
+.titulo4 {
+    color: rgb(17, 40, 155);
+    font-size: 18px;
+}
+
+.f1 {
+    color: rgb(17, 40, 155);
+}
+
+.pintor {
+    width: 300px;
+    height: 150px;
+}
+
+.pintor1 {
+    width: 350px;
+    height: 450px;
+}
+
+.productos {
+    height: 400px;
+    width: 80%;
+}
+
+.button {
+    border: none;
+    width: 30%;
+    color: white;
+    font-size: 20px;
+    background: black;
+    padding: 15px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: rgb(37, 37, 52);
+}
+
+.ti2 {
+    font-size: 25px;
+    color: blue;
+}
+
+.lista {
+    margin: 15px;
+}
